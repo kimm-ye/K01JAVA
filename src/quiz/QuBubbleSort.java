@@ -43,7 +43,7 @@ public class QuBubbleSort {
 					ref[j] = temp;
 				}
 			}
-			System.out.println(Arrays.toString(ref)); //왜 이렇게 출력하면 잘 나오지??
+			System.out.println(Arrays.toString(ref)); //왜 이렇게 출력하면 잘 나오지???/?
 		}
 	}
 }					
