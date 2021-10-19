@@ -43,7 +43,7 @@ public class QuBubbleSort {
 					ref[j] = temp;
 				}
 			}
-			System.out.println(Arrays.toString(ref)); //왜 이렇게 출력하면 잘 나오지???/?
+			System.out.println(Arrays.toString(ref)); //배열의 내용을 출력하려면 Arrays.toString을 사용해야 한다. 아니면 주소값만 나옴
 		}
 	}
 }					
