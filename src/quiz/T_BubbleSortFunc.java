@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class T_BubbleSortFunc
 {
-	//전역변수 형태로 생성하여 모든 메소드에서 접근가능
+	//전역변수 형태로 생성하여 모든 메소드에서 접근가능 -> static은 메소드 시작하면 바로 별도의 공간으로 올라가서 먼저 실행되니까 이렇게 지정해주면 어디에서나 사용가능
 	static Random rnd = new Random();
 	static Scanner scanner = new Scanner(System.in);
 			
@@ -45,7 +45,7 @@ public class T_BubbleSortFunc
 			것이다. 즉 요소1과 요소2를 비교하여 요소1이 크다면
 			서로 자리를 바꿔서 큰 숫자를 뒤로 보내준다.
 			 */
-			for(int j=0 ; j<(arrParam.length-1)-i ; j++) {
+			for(int j=0 ; j<(arrParam.length-1)-i ; j++) { //맨마지막거는 움직이지 않아도 되니까 i만큼 빼줌
 				/*
 				j가0일때 : arrParam[0] > arrParam[1] 비교
 				j가1일때 : arrParam[1] > arrParam[2] 비교
@@ -94,7 +94,7 @@ public class T_BubbleSortFunc
 	}
 	
 	
-	public static void showArray(int[] arr, String message) {
+	public static void showArray(int[] arr, String message) { //밑에서 생성한 난수배열이 무엇인지 출력 & 마지막에 정렬 배열 결과
 
 		System.out.println(message);
 		for(int i=0 ; i<arr.length ; i++) {
