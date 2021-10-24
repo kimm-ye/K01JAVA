@@ -65,7 +65,8 @@ public class QuArrayList2 {
 		list.add(st2);
 		list.add(st3);
 		list.add(st4);
-			
+		
+
 		while(true) {
 			//1.검색할 이름을 입력받음
 			System.out.print("검색할 이름을 입력하세요: ");
@@ -86,8 +87,10 @@ public class QuArrayList2 {
 				}
 				else {
 					System.out.println("검색결과가 없습니다");
+					break;
 				}
 			}
+
 			//4.전체정보 출력
 			System.out.println("[삭제후 정보출력]");
 			for(Student st : list) {
