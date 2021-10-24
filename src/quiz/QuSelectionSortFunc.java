@@ -22,10 +22,7 @@ public class QuSelectionSortFunc {
 		
 		//선택정렬
 		showArray(arr, "선택정럴 이후 배열출력");
-		
-		
 	}
-
 	
 	public static void createRnd (int[] arrParam) {
 		
@@ -82,7 +79,7 @@ public class QuSelectionSortFunc {
 					}
 				}
 			}
-			System.out.println( i +"번 " + Arrays.toString(arr));
+			System.out.println(Arrays.toString(arr));
 		}
 	}
 }
