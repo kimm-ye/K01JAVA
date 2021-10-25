@@ -30,7 +30,7 @@ public class InsertSQL  extends IConnectImpl {
 			String name = scan.nextLine();
 			
 			/*
-			4.인파라미터 설정: ? 의 순서대로 설정하고, 인덱스는 1부터 시작ㅎ나다.
+			4.인파라미터 설정: ? 의 순서대로 설정하고, 인덱스는 1부터 시작한다.
 				인파라미터 설정시 사용하는 메서드
 				자료형이 
 					숫자면 setInt()

@@ -39,7 +39,7 @@ public class QuSelectionSort {
 					arr[i] = temp;
 				}
 			}
-			System.out.println( i +"번 " + Arrays.toString(arr));
+			System.out.println(Arrays.toString(arr));
 		}
 
 	}
