@@ -44,7 +44,7 @@ public class Student extends Person {
 		
 		//학번에 대한 비교를 진행
 		if(student.stNumber.equals(this.stNumber)) {
-			System.out.println(getName());
+//			System.out.println(getName());
 			return true; //똑같을때 true를 반환한다. 
 		}
 		else {

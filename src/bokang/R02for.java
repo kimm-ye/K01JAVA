@@ -104,16 +104,19 @@ public class R02for {
 		연습문제] 앞의 문제를 do~while문으로 변경하시오.
 		 */
 		System.out.println("do~while문으로 주사위문제 구현하기");
-//		int m=1;
-//		int n=1;
-//		do {
-//			if(m+n==6) {
-//				System.out.printf("%d+%d=%d%n" , m, n, (m + n));
-//				m++;
-//			}
-//			n++;
-//		}while(m<6 || n<6);
-		
+		int c=1;
+		//주사위1은 i를 통해 반복
+		do {		
+			int d=1;
+			//주사위2는 j를 통해 반복
+			do {	
+				if(c+d==6) {
+					System.out.printf("%d+%d=%d%n", c, d, (c+d));
+				}
+				d++;
+			}while(d<=6);			
+			c++;
+		}while(c<=6);
 		
 		/*
 		시나리오] 방정식 2x+4y=12를 만족하는 모든 x,y값을 구하시오.

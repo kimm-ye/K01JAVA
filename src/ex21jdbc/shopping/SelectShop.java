@@ -30,8 +30,8 @@ public class SelectShop extends IConnectImpl {
 				String goods_name = rs.getString(2);
 				String goods_price = rs.getString(3);
 				String regidate = rs.getString(4);
-				String p_code = rs.getString(5);
-				System.out.printf("%s %s %s %s %s ", g_idx, goods_name, goods_price,regidate,p_code );
+				int p_code = rs.getInt(5);
+				System.out.printf("%d %s %s %s %d ", g_idx, goods_name, goods_price,regidate,p_code );
 				
 			}
 		}

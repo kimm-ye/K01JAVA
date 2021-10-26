@@ -5,7 +5,7 @@ import ex21jdbc.connect.IConnectImpl;
 public class insertShop extends IConnectImpl{
 	
 	public insertShop() {
-		super(ORACLE_DRIVER, "kosmo", "1234");
+		super("kosmo", "1234");
 	}
 
 	@Override
